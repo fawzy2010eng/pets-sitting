@@ -1,0 +1,155 @@
+.firstNav{
+    height:40px;
+    background-image: linear-gradient(to right,#207dff,#00bd55);
+    display: flex;
+    justify-content: flex-end;
+    color: white
+}
+.firstNav .conts{
+    width: 70%;
+}
+.firstNav .conts .cont{
+    width: 50%;
+    float: left;
+    padding-top: .4em;
+    cursor: pointer
+}
+.firstNav .conts .cont:first-of-type{
+    width: 30%
+}
+.firstNav .conts .cont i{
+    margin-top: .3em;
+    float: left;
+    margin-right: .4em
+}
+.firstNav .conts .cont h3{
+    font-size: 1.2em
+}
+
+.firstNav .links{
+    position: absolute;
+    right: 90px;
+}
+.firstNav .links div{
+    float: left;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding-left: 1em
+}
+
+.firstNav .links div:hover{
+    background-color: #00bd56
+}
+.firstNav .links div i {
+    line-height: 40px;
+    margin-right: auto;
+    margin-right: auto
+}
+
+@media (max-width:732px){
+    .firstNav .conts .cont h3{
+        font-size: 12px;
+        margin-top: .4em
+    }
+}
+
+@media (max-width:465px){
+    .firstNav .conts .cont h3{
+        font-size: 8px;
+        margin-top: .9em;
+/*        color: black*/
+            
+    }
+}
+/*start main navbar*/
+
+nav {
+    padding-bottom: 0;
+    padding-top: 0
+}
+@media (min-width: 992px) {
+  .collapse { 
+    position: absolute;
+    right: 90px
+    }
+}
+
+nav .navbar-brand i{
+    color: #00bd56 ;
+    margin-top: .1em;
+    float: left;
+    margin-right: .6em;
+    font-size: 1.3em
+}
+nav .navbar-brand h4{
+    font-weight: bold
+}
+nav .nav-link{
+    height: 62px;
+    padding-top: 20px;
+    color: black
+}
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #00bd56;
+    color: #00bd56
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #00bd56;
+    border-bottom: 2px solid #00bd56;
+}
+
+/*end main navbar*/
+
+
+/*start main image*/
+.main {
+    position: relative;
+    
+}
+
+.main >div, .main img{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.main>div{
+    text-align: center;
+    z-index: 2;
+    height: 35em;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%
+}
+.main>div h4{
+    color: white;
+    font-size: 30px;    
+}
+.main>div button{
+    font-size: 3em;
+    transition: all .5s ease 
+}
+.main>div button:hover{
+    background-color: transparent;
+    color: #28a745;
+    border: 2px solid #28a745 
+}
+/*end main image*/
+
+/*start plans section*/
+
+.plans{
+/*    position: relative;*/
+    height: 1000px;
+    background-color: gray;
+    padding-top: 672px
+}
+
+/*end plans section*/
